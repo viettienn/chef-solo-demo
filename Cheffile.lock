@@ -1,0 +1,18 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    ark (0.8.0)
+    java (1.22.0)
+
+GIT
+  remote: https://github.com/elasticsearch/cookbook-elasticsearch
+  ref: master
+  sha: 15c51a61abd659943d4879822f773bd8e5e672cf
+  specs:
+    elasticsearch (0.3.8)
+      ark (>= 0.2.4)
+
+DEPENDENCIES
+  elasticsearch (>= 0)
+  java (>= 0)
+
